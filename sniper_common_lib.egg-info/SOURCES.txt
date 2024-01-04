@@ -1,0 +1,8 @@
+setup.py
+sniper_common_lib/__init__.py
+sniper_common_lib/elasticsearch_connector.py
+sniper_common_lib.egg-info/PKG-INFO
+sniper_common_lib.egg-info/SOURCES.txt
+sniper_common_lib.egg-info/dependency_links.txt
+sniper_common_lib.egg-info/requires.txt
+sniper_common_lib.egg-info/top_level.txt

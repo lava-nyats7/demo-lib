@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sniper-common-lib
+Version: 0.1
+Requires-Dist: kazoo==2.9.0
+Requires-Dist: redis==5.0.1
+Requires-Dist: requests==2.28.1
+Requires-Dist: confluent-kafka==1.7.0
+Requires-Dist: fastapi==0.103.0
+Requires-Dist: elasticsearch==7.12.0

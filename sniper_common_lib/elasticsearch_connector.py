@@ -13,10 +13,11 @@ class ElasticsearchConnection:
         self._establish_connection()
 
     def _construct_url(self):
-        url = f"http://{self.host}:{self.port}"
-        if self.use_https:
-            url = f"https://{self.host}:{self.port}"
-        return url
+        def _construct_url(self):
+            url = f"http://{self.host}:{self.port}"
+            if self.use_https:
+                url = f"https://{self.host}:{self.port}"
+            return url
 
     def _establish_connection(self):
         try:
@@ -49,8 +50,8 @@ class ElasticsearchConnection:
 
 # Example usage:
 # try:
-#     es_connection = ElasticsearchConnection(host='13.233.85.187', port=9200, username='elastic', password='AVEKSHAA2023APPNEURA', use_https=True)
-#     es = es_connection.get_connection()
+    #es_connection = ElasticsearchConnection(host='13.233.85.187', port=9200, username='elastic', password='AVEKSHAA2023APPNEURA', use_https=True)
+    #es = es_connection.get_connection()
 #
 #     # Now 'es' is your Elasticsearch connection object, and you can use it in your project.
 #     # For example:
